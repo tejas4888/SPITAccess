@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="8dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:clickable="true"
+    android:foreground="?android:selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:id="@+id/CommitteeMember_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Tejas Chheda"/>
+
+    <TextView
+        android:layout_below="@+id/CommitteeMember_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CommitteeMember_designation"
+        android:text="General Secretary"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_email_black_24dp"
+        android:id="@+id/CommitteeMember_email"
+        android:padding="8dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_add_black_24dp"
+        android:padding="8dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/CommitteeMember_contact"
+        android:layout_toLeftOf="@+id/CommitteeMember_email"/>
+
+</RelativeLayout>

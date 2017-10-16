@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Home"
+
+            android:icon="@drawable/ic_menu_home_black_24dp"
+            android:id="@+id/nav_drawer_Home"   />
+
+        <item android:title="Announcements"
+            android:icon="@drawable/ic_notifications_active_black_24dp"
+            android:id="@+id/nav_drawer_Announcements" />
+    </group>
+
+
+    <item android:title="Academics">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Departments"
+                    android:id="@+id/nav_drawer_Departments"
+                    android:icon="@drawable/ic_menu_department_black_24dp" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Extra Curricular">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="Events Workshops"
+                    android:id="@+id/nav_drawer_Events"
+                    android:icon="@drawable/ic_menu_event_black_24dp" />
+
+                <item android:title="Committees"
+                    android:icon="@drawable/ic_menu_committee_black_24dp"
+                    android:id="@+id/nav_drawer_Committees"/>
+
+                <item android:title="Hangout spots"
+                    android:icon="@drawable/ic_menu_hangout_black_24dp"
+                    android:id="@+id/nav_drawer_Hangouts"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Extras">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="SP-TBI" android:id="@+id/nav_drawer_SPTBI"  />
+
+                <item android:title="About App" android:id="@+id/nav_drawer_AboutApp"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

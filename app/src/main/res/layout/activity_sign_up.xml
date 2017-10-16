@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="8dp"
+    android:focusableInTouchMode="true"
+    android:id="@+id/SignUp_linearLayout">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUp_signUptext"
+        android:layout_marginTop="40dp"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:id="@+id/SignUp_emailTextLayout">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/LoginSignUp_emailtext"
+            android:id="@+id/SignUp_emailEditText"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        app:errorEnabled="true"
+        android:id="@+id/SignUp_passwordTextLayout">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/LoginSignUp_passwordtext"
+            android:inputType="textPassword"
+            android:id="@+id/SignUp_passwordEditText"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/SignUp_signUptext"
+        android:id="@+id/SignUp_signUpInButton"
+        />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:id="@+id/CommitteeItem_Card"
+    android:foreground="?android:selectableItemBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="8dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/CommitteeItem_Logo"
+            android:src="@drawable/csilogo2"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/CommitteeItem_Logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="24dp"
+                android:id="@+id/CommitteeItem_Initials"
+                android:textColor="#000000"
+                android:text="C.S.I."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textSize="18dp"
+                android:id="@+id/CommitteeItem_Title"
+                android:text="Computer Society of India"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
